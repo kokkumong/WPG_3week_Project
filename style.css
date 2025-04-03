@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%; 
+}
+
+/* Logo Section (Top Center) */
+.logo-container {
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.logo-container img {
+    width: 300px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-bottom: 4px solid black;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+nav a:hover {
+    color: red;
+    transform: scale(1.1);
+}
+
+nav .nav-title span {
+    color: red;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ddd;
+}
+
+footer .footer-title  {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer .footer-title span {
+    color: red;
+}
+
+footer .info {
+    text-align: left;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+/* Logo Links */
+.logo-links {
+    display: flex;
+    gap: 15px;
+}
+
+.logo-links a img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.logo-links a:hover img {
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*문의내용 입력*/
+.submit_contanier{
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.name_input{
+    text-align: left;   
+}
+
+.input_name{
+    width: 100%;
+    height: 25px
+}
+.input_phoneNum{
+    width : 100%;
+    height: 25px;
+}
+
+.input_email{
+    width : 332px;
+    height: 25px;
+}
+.input_email_domain{
+    width: 299px;
+    height: 25px;
+}
+
+.input_title{
+    width: 100%;
+    height: 25px;
+}
+.input_content{
+    vertical-align:top;
+    width:100%; 
+    height:503px; 
+    letter-spacing: 1.5px"
+}
+
+.submit_button{
+  display: block;
+  color:antiquewhite;
+  width: 80%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #fa5a5a;
+  font-size:x-large;
+}
