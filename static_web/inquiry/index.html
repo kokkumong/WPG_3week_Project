@@ -28,8 +28,7 @@
       </nav>
     </header>
 
-    <h2>게시판</h2>
-    <div class="submit_contanier">
+    <div class="submit_container">
       <table class="input_table">
         <tr>
           <th scope="row">이름</th>
@@ -56,29 +55,33 @@
         <tr>
           <th scope="row">이메일</th>
           <td>
-            <input
-              type="text"
-              class="input_email"
-              placeholder="이메일을 입력해주세요."
-              maxlength="18"
-            />
-            @
-            <input
-              type="text"
-              class="input_email_domain"
-              placeholder="이메일 도메인"
-              maxlength="18"
-            />
-            <select class="select" title="이메일 도메인 주소 선택">
-              <option value="">-선택-</option>
-              <option value="naver.com">naver.com</option>
-              <option value="gmail.com">gmail.com</option>
-              <option value="hanmail.net">hanmail.net</option>
-              <option value="hotmail.com">hotmail.com</option>
-              <option value="kakao.com">kakao.com</option>
-              <option value="nate.com">nate.com</option>
-              <option value="yahoo.com">yahoo.com</option>
-            </select>
+            <div class="email_container">
+              <input
+                type="text"
+                class="input_email"
+                placeholder="이메일을 입력해주세요."
+                maxlength="18"
+              />
+              @
+              <input
+                type="text"
+                class="input_email_domain"
+                placeholder="이메일 도메인"
+                maxlength="18"
+              />
+              <div class="select_container">
+                <select class="select" title="이메일 도메인 주소 선택">
+                  <option value="">-선택-</option>
+                  <option value="naver.com">naver.com</option>
+                  <option value="gmail.com">gmail.com</option>
+                  <option value="hanmail.net">hanmail.net</option>
+                  <option value="hotmail.com">hotmail.com</option>
+                  <option value="kakao.com">kakao.com</option>
+                  <option value="nate.com">nate.com</option>
+                  <option value="yahoo.com">yahoo.com</option>
+                </select>
+              </div>
+            </div>
           </td>
         </tr>
         <tr>
@@ -109,11 +112,11 @@
         <tr>
           <th scope="row"></th>
           <td>
-            <h6>
+            <h5>
               첨부된 지원 파일 형식: JPG, PNG, PDF 등 <br />최대 파일 크기: 10MB
               <br />첨부된 파일은 주문 확인 및 처리를 위해서만 사용되며,
               안전하게 보호됩니다.
-            </h6>
+            </h5>
           </td>
         </tr>
         <tr>
