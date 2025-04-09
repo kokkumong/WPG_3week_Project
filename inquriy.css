@@ -1,100 +1,44 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: white;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  width: 100%;
-}
-
-/* Logo Section (Top Center) */
-.logo-container {
-  text-align: center;
-  padding: 20px 0;
-  background-color: white;
-}
-
-.logo-container img {
-  width: 300px;
-  height: auto;
-}
-
-nav {
+/* ===== Contact Page ===== */
+.contact-page .submit_container {
+  margin-top: 160px;
   display: flex;
-  width: 100%;
-  background-color: white;
-  border-bottom: 4px solid black;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-nav a {
-  flex: 1;
-  text-align: center;
-  padding: 15px 0;
-  text-decoration: none;
-  font-size: 20px;
-  color: black;
-  font-weight: bold;
-  transition: all 0.2s ease;
-}
-nav a:hover {
-  color: red;
-  transform: scale(1.1);
-}
-
-nav .nav-title span {
-  color: red;
-}
-
-/* Footer */
-footer {
-  background-color: white;
-  text-align: center;
-  padding: 30px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-top: 2px solid #ddd;
-}
-
-footer .footer-title {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-footer .footer-title span {
-  color: red;
-}
-
-footer .info {
+.contact-page .name_input {
   text-align: left;
 }
 
-footer p {
-  margin: 5px 0;
-  font-size: 18px;
+.contact-page .input_name,
+.contact-page .input_phoneNum,
+.contact-page .input_email,
+.contact-page .input_email_domain,
+.contact-page .input_title {
+  width: 100%;
+  height: 25px;
 }
 
-/* Logo Links */
-.logo-links {
-  display: flex;
-  gap: 15px;
+.contact-page .input_email {
+  width: 332px;
 }
 
-.logo-links a img {
-  width: 100px;
-  height: 100px;
-  transition: transform 0.3s ease;
+.contact-page .input_email_domain {
+  width: 299px;
 }
 
-.logo-links a:hover img {
-  transform: scale(1.1);
+.contact-page .input_content {
+  vertical-align: top;
+  width: 100%;
+  height: 503px;
+  letter-spacing: 1.5px;
+  resize: none; /* 사용자가 크기 조절 못 하게 하려면 이 줄 추가 */
+  padding: 10px; /* 텍스트가 너무 바짝 붙지 않게 */
+  line-height: 1.2;
+}
+
+.contact-page .submit_button_design {
+  width: 1000px;
 }
 
 /*문의내용 입력*/
@@ -107,7 +51,6 @@ footer p {
 .input_table {
   border-collapse: separate;
   border-spacing: 10px 5px;
-  
 }
 
 .name_input {
@@ -226,13 +169,13 @@ select {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   font-size: x-large;
   border-radius: 20px;
   outline: none;
   font-weight: bold;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
