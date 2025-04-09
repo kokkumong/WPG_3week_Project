@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--외부 CSS 파일 적용-->
+    <link rel="stylesheet" href="inquriy.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Logo Section -->
+      <a href="#">
+        <!--메인페이지 링크 걸어주시면됩니다-->
+        <div class="logo-container">
+          <img src="BURRITO ZIP.png" />
+        </div>
+      </a>
+
+      <!-- Navigation Bar -->
+      <nav>
+        <a href="#">메뉴</a>
+        <!--메뉴 링크 걸어주시면됩니다-->
+        <a href="about.html" class="nav-title">BURRITO <span>ZIP</span></a>
+        <a href="#">주문</a>
+        <!--주문 링크 걸어주시면됩니다-->
+        <a href="#">고객문의</a>
+        <!--고객문의 링크 걸어주시면됩니다-->
+      </nav>
+    </header>
+
+    <div class="submit_container">
+      <table class="input_table">
+        <tr>
+          <th scope="row">이름</th>
+          <td>
+            <input
+              type="text"
+              class="input_name"
+              placeholder="이름을 입력해주세요."
+              maxlength="20"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">연락처</th>
+          <td>
+            <input
+              type="text"
+              class="input_phoneNum"
+              placeholder="연락처를 입력해주세요."
+              maxlength="20"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">이메일</th>
+          <td>
+            <div class="email_container">
+              <input
+                type="text"
+                class="input_email"
+                placeholder="이메일을 입력해주세요."
+                maxlength="18"
+              />
+              @
+              <input
+                type="text"
+                class="input_email_domain"
+                placeholder="이메일 도메인"
+                maxlength="18"
+              />
+              <div class="select_container">
+                <select class="select" title="이메일 도메인 주소 선택">
+                  <option value="">-선택-</option>
+                  <option value="naver.com">naver.com</option>
+                  <option value="gmail.com">gmail.com</option>
+                  <option value="hanmail.net">hanmail.net</option>
+                  <option value="hotmail.com">hotmail.com</option>
+                  <option value="kakao.com">kakao.com</option>
+                  <option value="nate.com">nate.com</option>
+                  <option value="yahoo.com">yahoo.com</option>
+                </select>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">제목</th>
+          <td>
+            <input
+              type="text"
+              class="input_title"
+              placeholder="제목을 입력해주세요."
+            />
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" style="vertical-align: top">내용</th>
+          <td>
+            <textarea
+              class="input_content"
+              placeholder="내용을 입력하세요"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" style="vertical-align: top">첨부 파일</th>
+          <td>
+            <input type="file" id="file_upload" />
+            <h5>
+              첨부된 지원 파일 형식: JPG, PNG, PDF 등 <br />최대 파일 크기: 10MB
+              <br />첨부된 파일은 주문 확인 및 처리를 위해서만 사용되며,
+              안전하게 보호됩니다.
+            </h5>
+          </td>
+        </tr>
+        <tr>
+          <!--제출 버튼-->
+          <th scope="row"></th>
+          <td>
+            <div>
+              <a href="#"><p onclick="alert('접수되었습니다')">
+                  <button class="submit_button">제출하기</button>
+                </p></a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <div class="info">
+        <div class="footer-title">BURRITO <span>ZIP</span></div>
+        <p>주소: 서울 동작구 상도로21길 23</p>
+        <p>연락처: 02-3280-0090</p>
+        <p>영업시간: 10:00 - 19:30</p>
+        <p>COPYRIGHT © 2025 ALL RIGHTS RESERVED BY BURRITO ZIP.</p>
+      </div>
+      <div class="logo-links">
+        <a href="https://naver.me/G1wS9wGq" target="_blank">
+          <img src="NAVER.png" alt="Naver Logo" />
+        </a>
+        <a
+          href="https://www.diningcode.com/profile.php?rid=UYu9bTveLzbd"
+          target="_blank"
+        >
+          <img src="diningcode.jpg" alt="DiningCode Logo" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
